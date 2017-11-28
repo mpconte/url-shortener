@@ -10,7 +10,7 @@ var express = require('express');
 var app = express();
 var mongodb = require('mongodb');
 var sites = null;
-var APP_URL = "https://rust-sphere.glitch.me/";
+var APP_URL = "https://rust-sphere-url-shortener.glitch.me/";
 
 function generateLink(url, res, callback) {
     // Gather all existing links    
